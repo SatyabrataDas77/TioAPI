@@ -1,0 +1,70 @@
+{
+    "myData": [
+        {
+            "name": "magazine",
+            "image":"https://www.tionet.in/Magzines/IMG/2021/Jan-Feb%20IMG%202021/shot.png",
+            "edition": "May-June",
+            "feature": true,
+            "year": 2021,
+            "vol": 56,
+            "issue": 324,
+            "company": "The Indian Optician",
+            "pdfLink": "https://www.tionet.in/Magzines/PDF/2021/Jan-Feb%20PDF%202021/JAN-FEB%202021%20Final.pdf"
+        },
+        {
+            "name": "magazine",
+            "image":"https://www.tionet.in/Magzines/IMG/2021/Jul-Aug%20IMG%202021/shot.png",
+            "edition": "July-Aug",
+            "feature": true,
+            "year": 2021,
+            "vol": 54,
+            "issue": 324,
+            "company": "The Indian Optician",
+            "pdfLink": "https://www.tionet.in/Magzines/PDF/2021/Jul-Aug%20PDF%202021/July-August%202021%20Final%20Pdf.pdf"
+        },
+        {
+            "name": "magazine",
+            "image":"https://www.tionet.in/Magzines/IMG/2021/Jul-Aug%20IMG%202021/shot.png",
+            "edition": "Sept-Oct",
+            "feature": true,
+            "year": 2021,
+            "vol": 52,
+            "issue": 324,
+            "company": "The Indian Optician",
+            "pdfLink": "https://www.tionet.in/Magzines/PDF/2021/Jul-Aug%20PDF%202021/July-August%202021%20Final%20Pdf.pdf"
+        },
+        {
+            "name": "magazine",
+            "image":"https://www.tionet.in/Magzines/IMG/2021/Jul-Aug%20IMG%202021/shot.png",
+            "edition": "Nov-Dec",
+            "feature": true,
+            "year": 2021,
+            "vol": 50,
+            "issue": 324,
+            "company": "The Indian Optician",
+            "pdfLink": "https://www.tionet.in/Magzines/PDF/2021/Jul-Aug%20PDF%202021/July-August%202021%20Final%20Pdf.pdf"
+        },
+        {
+            "name": "magazine",
+            "image":"https://www.tionet.in/Magzines/IMG/2021/Jan-Feb%20IMG%202021/shot.png",
+            "edition": "Jan-feb",
+            "feature": true,
+            "year": 2021,
+            "vol": 60,
+            "issue": 324,
+            "company": "The Indian Optician",
+            "pdfLink": "https://www.tionet.in/Magzines/PDF/2021/Jan-Feb%20PDF%202021/JAN-FEB%202021%20Final.pdf"
+        },
+        {
+            "name": "magazine",
+            "image":"https://www.tionet.in/Magzines/IMG/2021/Jan-Feb%20IMG%202021/shot.png",
+            "edition": "Mar-Apr",
+            "feature": true,
+            "year": 2021,
+            "vol": 58,
+            "issue": 324,
+            "company": "The Indian Optician",
+            "pdfLink": "https://www.tionet.in/Magzines/PDF/2021/Jan-Feb%20PDF%202021/JAN-FEB%202021%20Final.pdf"
+        }
+    ]
+}
