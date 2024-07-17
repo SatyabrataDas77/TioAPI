@@ -1,28 +1,32 @@
 require("dotenv").config();
 const express = require("express");
 const app = express();
-const connectDB = require("./db/connect");   
+const connectDB = require("./db/connect");
+const productsRoutes = require("./routes/products");
 
 const PORT = process.env.PORT || 5000;
 
-const products_routes = require("./routes/products");
+// Middleware
+app.use(express.json()); // Parse JSON bodies
 
-app.get("/", (req, res) =>{
-    res.send("Hi, I am live")
+// Routes
+app.get("/", (req, res) => {
+    res.send("Hi, I am live");
 });
 
+app.use("/api/products", productsRoutes);
 
-app.use("/api/products", products_routes);
-
+// Start function to connect to MongoDB and start server
 const start = async () => {
-    try{
+    try {
         await connectDB(process.env.MONGODB_URL);
         app.listen(PORT, () => {
-          console.log(  `${PORT} Yes I am connected` );
+            console.log(`Server is running on http://localhost:${PORT}`);
         });
     } catch (error) {
-        console.log(error);
+        console.error("Error starting server:", error.message);
+        process.exit(1); // Exit with failure
     }
-}
+};
 
 start();
